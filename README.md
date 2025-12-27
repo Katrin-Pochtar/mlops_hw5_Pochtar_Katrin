@@ -4,12 +4,12 @@
 DAG that trains a model, evaluates metrics, deploys conditionally, and sends email notification on success.
 
 ## Tasks
-- `train_model` — simulates training, returns accuracy
-- `evaluate_model` — extracts and logs accuracy
-- `check_metrics` — branches based on threshold (deploy or skip)
-- `deploy_model` — simulates production deployment
+- `train_model` - simulates training, returns accuracy
+- `evaluate_model` - extracts and logs accuracy
+- `check_metrics` - branches based on threshold (deploy or skip)
+- `deploy_model` - simulates production deployment
 - `notify_success` - sends email with model version
-- `skip_deploy` — no-op when metrics fail
+- `skip_deploy` - no-op when metrics fail
 
 ## Configuration
 ```bash
@@ -40,7 +40,7 @@ Create connection in Airflow UI:
 For Gmail App Password: https://myaccount.google.com/apppasswords
 
 ## Files
-- `airflow/dags/ml_retrain_pipeline.py` — DAG code
+- `airflow/dags/ml_retrain_pipeline.py` - DAG code
 
 ## Screenshot of successful DAG run with notify_success task in Airflow UI
 <img width="1432" height="690" alt="Screenshot 2025-12-26 at 21 33 01" src="https://github.com/user-attachments/assets/62449b67-f76d-40da-92cc-e354d1b0fdf3" />
