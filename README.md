@@ -1,4 +1,4 @@
-# MLOps — Airflow DAG with Model Deployment Notification
+# MLOps - Airflow DAG with Model Deployment Notification
 
 ## Overview
 DAG that trains a model, evaluates metrics, deploys conditionally, and sends email notification on success.
@@ -8,7 +8,7 @@ DAG that trains a model, evaluates metrics, deploys conditionally, and sends ema
 - `evaluate_model` — extracts and logs accuracy
 - `check_metrics` — branches based on threshold (deploy or skip)
 - `deploy_model` — simulates production deployment
-- `notify_success` — sends email with model version
+- `notify_success` - sends email with model version
 - `skip_deploy` — no-op when metrics fail
 
 ## Configuration
