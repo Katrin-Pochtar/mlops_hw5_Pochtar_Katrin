@@ -1,4 +1,4 @@
-# MLOps HW5 — Airflow DAG with Model Deployment Notification
+# MLOps — Airflow DAG with Model Deployment Notification
 
 ## Overview
 DAG that trains a model, evaluates metrics, deploys conditionally, and sends email notification on success.
@@ -41,4 +41,13 @@ For Gmail App Password: https://myaccount.google.com/apppasswords
 
 ## Files
 - `airflow/dags/ml_retrain_pipeline.py` — DAG code
-- `screenshots/airflow_run_success.png` — successful run
+
+## Screenshot of successful DAG run with notify_success task in Airflow UI
+<img width="1432" height="690" alt="Screenshot 2025-12-26 at 21 33 01" src="https://github.com/user-attachments/assets/62449b67-f76d-40da-92cc-e354d1b0fdf3" />
+
+## Email notofication
+<img width="1256" height="265" alt="Screenshot 2025-12-26 at 21 33 34" src="https://github.com/user-attachments/assets/77b5d939-20c5-4fe6-88b5-e51d45cb2b47" />
+
+
+
+
